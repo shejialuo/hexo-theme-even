@@ -14,12 +14,11 @@
 
     .menu-item {
       display: inline-block;
+      @include underline-from-center;
 
       & + .menu-item {
         margin-left: $menu-item-margin-left;;
       }
-
-      @include underline-from-center;
     }
 
     .menu-item-link {
